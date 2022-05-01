@@ -1,0 +1,26 @@
+section.intro {
+    display: flex;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+div.center {
+    margin:auto;
+    width: fit-content;
+    text-align: center;
+    border: 1px solid rgb(221, 194, 43);
+    padding: 10px 30px;
+    color: rgb(19, 44, 90);
+}
+
+.intro h1 {
+    letter-spacing: .1em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.intro a {
+    color: rgb(19, 44, 90);
+    font-weight: 500;
+    text-decoration: none;
+}
